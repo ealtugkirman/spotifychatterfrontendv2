@@ -15,6 +15,6 @@ export function AnimatedText() {
     return () => clearInterval(intervalId)
   }, [])
 
-  return <span className="text-green-400 font-bold">{words[index]}</span>
+  return <span className="text-green-400 font-light">{words[index]}</span>
 }
 
