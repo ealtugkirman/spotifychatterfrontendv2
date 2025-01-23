@@ -14,7 +14,7 @@ const HeroSectionClient = dynamic(() => import("./_components/hero"), {
 export default function Home() {
   return (
     <div className="flex h-full  min-h-screen bg-black  flex-col items-center justify-center overflow-hidden rounded-lg border md:shadow-xl">
-      <div>
+      <div className="text-white">
         <HeroSectionClient />
       </div>
       <PricingCard />
